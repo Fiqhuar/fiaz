@@ -1,0 +1,754 @@
+h4{
+  margin-left: 10px;
+    margin-top: 35px;
+    color: rgb(243, 235, 237);
+    margin-right: 400px;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #ca1e91, #431185);
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* WebKit-based browsers (Chrome, Safari) */
+  -moz-background-clip: text; /* Older Firefox versions */
+  color: transparent; /* Ensure the text color is transparent so gradient is visible */
+}
+
+.container a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px; /* Thickness of the underline */
+  background-color: rgb(250, 247, 247); /* Set your underline color */
+  transition: width 0.5s ease-in-out;
+
+}
+
+.container a:hover::after {
+ 
+  width: 100%;
+}
+.container{
+    display:flex;
+    color: rgb(247, 244, 245);
+    /* position: fixed;  */
+}
+.container a{
+  /* text-decoration: none; */
+  margin-bottom: 25px;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+    margin-top: 35px;
+ justify-content: right;
+    margin-inline: 40px;
+}
+.container img{
+  margin-left: 10px;
+ margin-top: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+  .body1 {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the background area */
+    z-index: -1; /* Sends the video to the back */
+  }
+
+  
+  .container .contact{
+    margin-top: 35px;
+     border: 1px solid white;
+     border-radius: 20px;
+     padding:2px 8px ;
+     margin-bottom: 20px;
+     transition: all 0.8s ease-in-out;
+}
+
+.container .contact:hover {
+  background-color: rgb(224, 215, 215);
+  color: rgb(82, 73, 73);
+  cursor: pointer; /* Changes cursor to pointer */
+}
+.container .contact:hover::after {
+ 
+  width: 0%;
+}
+
+.blw_nav p{
+    color: beige;
+    margin: -10px;
+    margin-top: 10px;
+    font-size: 120px;
+    margin-left: 70px;
+    
+}
+.blw_vis{
+  color: beige;
+   margin-top: -85px;
+ margin-left: 500px;
+    
+}
+.blw_ins{
+  color: beige;
+    margin-top: -175px;
+    margin-left: 1000px;
+
+  
+}
+
+.blw_ins {
+    position: fixed; 
+    display: flex; /* Fixes the position on the screen */
+    top: 70%;  /* Aligns vertically in the center of the screen */
+    right: 50px;  /* Aligns it to the right of the screen */
+    transform: translateY(-50%);  /* Centers the text vertically */
+    writing-mode:vertical-lr;  /* Makes the text display vertically from right to left */
+    text-align: center;  /* Centers the text inside each <p> element */
+    font-size: 15px;  /* Adjust the font size */
+    z-index: 1000;  /* Makes sure the text is on top of other content */
+}
+
+.blw_ins p {
+    margin: 0;
+    padding: 10px 0;  /* Adds some spacing between the lines */
+}
+
+.social-link {
+ 
+  transition: color 0.8s ease; /* Smooth transition */
+  background-clip: text; /* Background gradient is applied to text */
+  -webkit-background-clip: text; /* For webkit-based browsers */
+  color: transparent;
+ font-size: 30px;
+}
+.white-text {
+  color: white;
+}
+
+.bodyfooter img{
+  margin-bottom: -40px;
+  width: 120px;
+  height: 120px;
+  margin-left: 250px;
+}
+
+.bodyfooter div a{
+
+  display: inline;
+  margin-inline: 20px;
+
+}
+
+.bodyfooter .leftfoot{
+
+ margin-top: -90px;
+}
+.page2{
+  margin-top: 50px;
+  display: flex;
+}
+.page2head p{
+  margin: -10px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.courageFlx{
+  margin-top: -10px;
+  display: flex;
+  margin-left: 675px;
+}
+
+.line1{
+  height: 150px;
+}
+.row{
+  margin-left: 80px;
+  margin-top: -640px;
+  margin-bottom: 55px;
+}
+.column img {
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 8px;
+  vertical-align:top;
+  width: 20%;
+}
+.page2Content a{
+  text-decoration: none;
+margin-left: 655px;
+  color: white;
+  background: linear-gradient(to right, #ca1e91, #8b11a3);
+  border:1px solid linear-gradient(to right, #ca1e91, #8b11a3);
+  padding: 20px;
+  border-radius: 100px;
+  margin-bottom: 0px;
+
+}
+
+.page3head p{
+  margin: -10px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.page3textcumimg{
+  margin-left: 80px;
+  color: white;
+  background: linear-gradient(to right, #ca1e91, #8b11a3);
+  border:1px solid linear-gradient(to right, #ca1e91, #8b11a3);
+
+  border-radius: 30px;
+  height: 300px;
+  width: 80%;
+}
+
+.page3textcumimg p{
+  margin: 10px;
+font-size: 17px;
+  margin-left: 120px;
+
+}
+.page3textcumimg img{
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 100px; 
+  margin-top: -168px;
+  margin-left: 600px;
+  width:425px;
+  height: 265px;
+}
+
+
+.page3-2textcumimg{
+  margin-left: 80px;
+  color: white;
+  background: linear-gradient(to right, #ca1e91, #8b11a3);
+  border:1px solid linear-gradient(to right, #ca1e91, #8b11a3);
+
+  border-radius: 30px;
+  height: 450px;
+  width: 80%;
+
+}
+
+.page3-2textcumimg p{
+  margin: 10px;
+font-size: 17px;
+  margin-left: 120px;
+
+}
+
+.page3-2textcumimg img{
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 100px; 
+  margin-top: -310px;
+  margin-left: 600px;
+  width: 425px;
+  height: 415px;
+}
+
+.hovereff{
+  border: 1px solid white;
+  transition: all 0.8s ease-in-out;
+}
+.hovereff:hover {
+  background-color: rgb(224, 215, 215);
+  color: rgb(82, 73, 73);
+  cursor: pointer; /* Changes cursor to pointer */
+}
+
+.page4imgdisplay{
+  margin-left: 75px;
+}
+
+/* .reviewimgcss {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.reviewimgcss img{
+  border-radius: 20px;
+
+ 
+}
+
+.reviewimgcss::before {
+  border-radius: 20px;
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(26, 25, 25, 0.397), rgba(17, 17, 17, 0.034)); 
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 0;
+}
+
+.reviewimgcss:hover::before {
+  opacity: 0;
+} */
+
+.reviewimgcss {
+  display: inline-block;
+  position: relative;
+  width: 450px; 
+  height: 240px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Shadow properties */
+  border-radius: 10px; /* Optional rounded corners */
+  overflow: hidden; /* Ensures the image doesn't overflow the container */
+}
+
+.reviewimgcss img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fits properly within the container */
+}
+
+.reviewimgcss:hover {
+  transform: scale(1.05); 
+  transition: 0.3s ease-in-out;
+
+}
+
+.image-wrapper {
+  position: relative;
+  height: 566px;
+  width: 565px;
+ 
+  display: inline-block;
+  overflow: hidden;
+}
+
+.page4imgdisplay .image-wrapper img {
+border-radius: 20px;
+align-content: center;
+  margin:0px;
+
+  height: 565px;
+  width: 565px;
+  display: block;
+  transition: transform 0.8s ease-in-out; /* Smooth scaling effect */
+}
+
+/* Gradient overlay using ::before */
+.image-wrapper::before {
+  border-radius: 20px;
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(255, 0, 106, 0.397), rgba(183, 0, 255, 0.397)); /* Gradient colors */
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 1;
+}
+
+/* Ensure the image remains visible behind the gradient */
+.image-wrapper img {
+  position: relative;
+  z-index: 0;
+}
+
+/* Hover effect: remove the gradient and slightly zoom the image */
+.image-wrapper:hover::before {
+  opacity: 0;
+}
+.page5{
+  width:100%;
+  height:500px;
+  background: black;
+
+}
+
+
+.dotted-rectangle {
+ 
+ 
+ width: 240px;
+ height: 35px;
+ 
+  border: 2px dashed #999; /* Dotted border with gray color */
+  padding: 30px; /* Adds spacing inside the rectangle */
+  border-radius: 10px; /* Slightly rounded corners */
+  display: inline-block; /* Ensures the size wraps around the content */
+}
+
+.project-button {
+ margin-top: 40px;
+  background-color: #3b82f6; /* Blue background for the button */
+  border: none; /* Removes default button border */
+  color: #d1ff00; /* Bright yellow text */
+  padding: 20px 40px; /* Adds space inside the button */
+  border-radius: 30px; /* Makes the button fully rounded */
+  font-family: Arial, sans-serif; /* Choose a clean font */
+  font-size: 16px; /* Text size */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: all 0.3s ease-in-out; /* Adds hover animation */
+  /* transition: all 0.8s ease-in-out; */
+}
+
+.project-button:hover {
+  background-color:  #d1ff00;
+  color: #3b82f6;
+  cursor: pointer; /* Changes cursor to pointer */
+}
+
+.project-button1{
+  margin-top: 40px;
+  background-color: #88ff00; /* Blue background for the button */
+  border: none; /* Removes default button border */
+  color: #0c0c0c; /* Bright yellow text */
+  padding: 20px 40px; /* Adds space inside the button */
+  border-radius: 30px; /* Makes the button fully rounded */
+  font-family: Arial, sans-serif; /* Choose a clean font */
+  font-size: 16px; /* Text size */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: all 0.3s ease-in-out; /* Adds hover animation */
+}
+
+.project-button1:hover {
+  background-color:  #0c0c0c;
+  color: #88ff00;
+  cursor: pointer; /* Changes cursor to pointer */
+}
+
+.dotted-rectangle1 {
+  width: 240px;
+  height: 35px;
+  color: white;
+   border: 2px dashed #999; /* Dotted border with gray color */
+   padding: 30px; /* Adds spacing inside the rectangle */
+   border-radius: 10px; /* Slightly rounded corners */
+   display: inline-block; /* Ensures the size wraps around the content */
+   text-align: left; /* Initial alignment */
+   transition: all 0.9s ease;
+}
+
+.project-button2 {
+  color: #0c0c0c;
+  background-color: white; /* Blue background for the button */
+  border: none; /* Removes default button border */
+  padding: 20px 40px; /* Adds space inside the button */
+  border-radius: 10px; /* Makes the button fully rounded */
+  font-family: Arial, sans-serif; /* Choose a clean font */
+  font-size: 16px; /* Text size */
+  display: inline-block;
+  position: relative;
+  transition: all 0.9s ease; /* Smooth transition */
+}
+
+.dotted-rectangle1:hover .project-button2 {
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center; /* Align text to center */
+  background-color:  #0c0c0c;
+  color: #88ff00;
+  cursor: pointer;
+}
+
+.project-button3{
+  font-size: 20px;
+margin-left: 40px;
+  color: white;
+  margin-bottom: 5px;
+ 
+}
+.project-button3:hover{
+  transition: all 0.9s ease;
+ text-decoration: underline;
+}
+
+.project-button4{
+  font-size: 20px;
+  margin-top: 40px;
+  background-color: #a303ee; /* Blue background for the button */
+  border: none; /* Removes default button border */
+  color: #0c0c0c; /* Bright yellow text */
+  padding: 20px 40px; /* Adds space inside the button */
+  border-radius: 10px; /* Makes the button fully rounded */
+
+  font-family: Arial, sans-serif; /* Choose a clean font */
+  font-size: 16px; /* Text size */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: all 0.6s ease-in-out; /* Adds hover animation */
+  /* position: relative; */
+}
+
+
+
+.project-button4:hover {
+  background-color:  #f87307;
+  color: #f83707;
+  cursor: pointer; 
+}
+
+.project-button5{
+  font-size: 20px;
+  margin-top: 40px;
+  background-color: #d3bddd; /* Blue background for the button */
+  border: none; /* Removes default button border */
+  color: #0c0c0c; /* Bright yellow text */
+  padding: 20px 40px; /* Adds space inside the button */
+  border-radius: 10px; /* Makes the button fully rounded */
+
+  font-family: Arial, sans-serif; /* Choose a clean font */
+  font-size: 18px; /* Text size */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: all 0.6s ease-in-out; /* Adds hover animation */
+  /* position: relative; */
+}
+
+
+
+.project-button5:hover {
+  font-size: 15px;
+  margin-left: 20px;
+  padding: 18px 36px; /* Adds space inside the button */
+  border-radius: 30px;
+  transition: all 0.6s ease-in-out;
+}
+
+
+
+.page6textcumimg{
+  margin-top: 50px;
+  margin-left: 80px;
+  color: white;
+  background: linear-gradient(to right, #ca1e91, #8b11a3);
+  border:1px solid linear-gradient(to right, #ca1e91, #8b11a3);
+  border-radius: 30px;
+  height: 300px;
+  width: 86%;
+}
+.page6textcumimg input{
+  padding: 16px 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+  /* width: calc(100% - 20px); */
+  background: none;
+}
+.page6textcumimg  input::placeholder {
+  color:white; /* Replace with your desired color */
+
+}
+
+.container2 {
+  position: relative;
+  overflow:visible;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+.text {
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  opacity: 0;
+  transform: translateX(0px);
+  transition: all 1s ease-in-out;
+}
+
+.left {
+  transform: translateX(-1000px);
+}
+
+.right {
+  transform: translateX(100%);
+}
+
+.text.visible.left {
+  transition: all 8s ease-in-out;
+  transform: translateX(50%);
+  opacity: 1;
+}
+
+.text.visible.right {
+  transition: all 8s ease-in-out;
+  transform: translateX(-50%);
+  opacity: 1;
+}
+
+
+
+
+/* Hover effect: slight scale for the image */
+/* .image-wrapper:hover {
+  transform: scale(1.05);  Optional scaling for a zoom effect 
+} Optional scaling for a zoom effect  */
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width:425px){
+
+  body {
+   
+    width: 200%;
+   
+  }
+  
+
+  .background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    height: 120%;
+    object-fit: cover; /* Ensures the video covers the background area */
+    z-index: -1; /* Sends the video to the back */
+  }
+
+
+  .blw_ins{
+    color: beige;
+      margin-top:5px;
+      margin-left: 0px;
+  
+    
+  }
+  
+  .blw_ins {
+      position: fixed; 
+      display: flex; /* Fixes the position on the screen */
+      top: 10%;  /* Aligns vertically in the center of the screen */
+      right: 1150px;  /* Aligns it to the right of the screen */
+      transform: translateY(-50%);  /* Centers the text vertically */
+      writing-mode:vertical-lr;  /* Makes the text display vertically from right to left */
+      text-align: center;  /* Centers the text inside each <p> element */
+      font-size: 15px;  /* Adjust the font size */
+      z-index: 1;  /* Makes sure the text is on top of other content */
+  }
+
+
+
+    .bodyfooter {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .bodyfooter img {
+      margin-left: -560px !important;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .bodyfooter a.gradient-text {
+        font-size:45px !important; /* Adjust the font size for smaller screens */
+        margin-left: 150px  !important;
+        margin-top: -80px  !important;
+        display: flex; /* Ensure proper alignment */
+        position:absolute;
+    }
+
+    .bodyfooter p {
+        margin: 10px auto; /* Reduce margins for smaller screens */
+        text-align: center;
+    }
+
+    .leftfoot.media {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: left;
+    }
+
+    .leftfoot.media a {
+        margin: 5px 100px !important;
+        text-align: left;
+    }
+
+    .leftfoot.media p {
+        margin-left: 100px !important;
+    }
+
+    .gradient-text {
+        display: block !important;
+        text-align: center !important;
+        font-size: 20px; /* Adjust size for small screens */
+    }
+
+
+    /* ////sevtion 6//// */
+
+  
+    .page6textcumimg {
+      margin-top: 20px;
+      margin-left: 0px;
+      color: white;
+      height: 400px;
+      width: 95%;
+      padding: 20px;
+      border-radius: 20px;
+    }
+  
+    .page6textcumimg p {
+      font-size: 24px; /* Adjust heading size */
+      margin-left: 0 !important;
+      text-align: center;
+ 
+    }
+  
+    .page6textcumimg p:nth-child(2) {
+      font-size: 14px; /* Adjust subheading size */
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    .page6textcumimg input {
+      width: 45%; /* Make inputs responsive */
+      padding: 20px;
+      margin: 10px auto !important;
+      display: block;
+    }
+  
+    .page6textcumimg button {
+      width: 45%; /* Adjust button size */
+      margin: 10px auto;
+      display: block;
+      font-size: 16px;
+      padding: 20px;
+    }
+
+  
+
+  
+}
+
+
+/* .blw_ins, p {
+    margin: 0;
+    padding: 10px 0;  /* Adds some spacing between the lines */
+
+
+/* .container,h1{
+ 
+    /* margin-inline: 30px; */
+ 
