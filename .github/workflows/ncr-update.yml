@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Trigger PHP Script
         run: |
-          curl -X GET "https://designhive.space/saas/contactform/Engagement.html?key=${{ secrets.CRON_KEY }}" \
+          curl -X GET "https://smartfinance.in/data_update/ncr_cron.php?key=${{ secrets.CRON_KEY }}" \
             --max-time 120 \
             --retry 2
           
