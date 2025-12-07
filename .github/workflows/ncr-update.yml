@@ -1,1 +1,19 @@
+name: Daily NCR Data Update
 
+on:
+  schedule:
+    - cron: '0 11 * * *'  # 11:00 UTC = 4:30 PM IST
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Trigger PHP Script
+        run: |
+          curl -X GET "https://https://designhive.space/saas/contactform/Engagement.html?key=${{ secrets.CRON_KEY }}" \
+            --max-time 120 \
+            --retry 2
+          
+          echo "✅ Cron executed at $(date -u)"
